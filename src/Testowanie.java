@@ -10,9 +10,6 @@ import static org.testng.Assert.fail;
 
 public class Testowanie {
     private WebDriver driver;
-    /*
-    private String baseUrl;
-    */
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
 
@@ -20,9 +17,6 @@ public class Testowanie {
     public void setUp() throws Exception {
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        /*
-        baseUrl = "https://www.katalon.com/";
-        */
     }
 
     @Test
